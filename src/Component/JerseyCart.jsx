@@ -6,7 +6,7 @@ const JerseyCart = ({ product }) => {
         <img
           src={product.image}
           alt={product.name}
-          className="h-40 object-contain mb-6"
+          className="h-52 sm:h-40 object-contain mb-6"
         />
         <h3 className={`text-2xl font-mono text-white py-2 font-bold`}>{product.name}</h3>
         <p className={`mb-4 text-gray-200 text-center font-mono min-h-10`}>

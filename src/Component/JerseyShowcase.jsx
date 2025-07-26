@@ -4,9 +4,9 @@ import JerseyCart from "./jerseyCart";
 const product = { name: 'Featured', description: 'Discover our diverse range of', price: '$54.99', image: 'https://images.fancode.com/media/catalog/product/m/u/mumbai_indians_official_mens_player_edition_jersey_2025_customised(2).png',}
 const JerseyShowcase = () => {
   return (
-    <div className="flex flex-col lg:flex-row text-white min-h-screen items-center p-8" style={{ backgroundImage: 'linear-gradient(to bottom, #101828 0%, #101828 50%, white 100%)' }}>
-      <div className="flex flex-col justify-center px-8 w-full md:w-1/2 py-16 text-center lg:text-left">
-        <h2 className="text-4xl font-bold mb-4 font-mono italic">
+    <div className="flex flex-col lg:flex-row text-white min-h-screen items-center sm:p-8" style={{ backgroundImage: 'linear-gradient(to bottom, #101828 0%, #101828 50%, white 100%)' }}>
+      <div className="flex flex-col justify-center px-2 sm:px-8 w-full md:w-1/2 py-16 text-center lg:text-left">
+        <h2 className="text-2xl sm:text-4xl font-bold mb-4 font-mono italic">
           Revolutionizing <br /> the Jersey
         </h2>
         <p className="mb-8 text-gray-300 font-mono text-base w-full">
