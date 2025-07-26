@@ -1,7 +1,7 @@
 const JerseyCart = ({ product }) => {
   return (
       <div
-        className={`bg-gray-800 rounded-2xl shadow-lg border rounded-lgp-6 flex flex-col items-center w-full sm:w-[50%] md:w-[40%] lg:w-[30%] p-4 h-fit`}
+        className={`bg-gray-800 rounded-2xl shadow-lg border rounded-lgp-6 flex flex-col items-center w-full sm:w-[45%] md:w-[40%] lg:w-[30%] p-4 h-fit`}
       >
         <img
           src={product.image}
