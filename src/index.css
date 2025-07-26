@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.linear_full {
+    background-image: linear-gradient(to right, #101828 0%, #101828 50%, white 50%, white 100%);
+}
+
+.linear_small {
+    background-image: linear-gradient(to bottom, #101828 0%, #101828 50%, white 100%);
+}
