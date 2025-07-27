@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import JerseyCart from '../Component/jerseyCart';
 const products = [
   {
@@ -44,7 +45,10 @@ const OurProduct = () => {
         <div className="p-2 mt-2 flex flex-col gap-4">
             <h1 className="text-4xl font-extrabold mb-4 text-center">Our Product</h1>
             <div className="rounded shadow ">
-                <h3 className='font-extrabold text-3xl md:text-4xl p-4 border-b-2 border-gray-300'>Cricket</h3>
+                <div className='border-b-2 border-gray-300 flex items-center justify-between px-2'>
+                  <h3 className='font-extrabold text-3xl md:text-4xl p-4'>Cricket</h3>
+                  <Link to='/cricket-jersey' className='text-xl '>More Items</Link>
+                </div>
                 <div className='flex justify-center items-center flex-wrap gap-2 py-2'>
                     {
                         products.map((product,index) => {
@@ -54,7 +58,10 @@ const OurProduct = () => {
                 </div>
             </div>
             <div className="rounded shadow mt-2">
-                <h3 className='font-extrabold text-3xl md:text-4xl p-4 border-b-2 border-gray-300'>Football</h3>
+                <div className='border-b-2 border-gray-300 flex items-center justify-between px-2'>
+                  <h3 className='font-extrabold text-3xl md:text-4xl p-4'>Football</h3>
+                  <Link to='/football-jersey' className='text-xl'>More Items</Link>
+                </div>
                 <div className='flex justify-center items-center flex-wrap gap-2 py-2'>
                     {
                         products.map((product,index) => {

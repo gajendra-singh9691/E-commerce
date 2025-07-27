@@ -1,9 +1,3 @@
-
-
-
-
-import React from 'react';
-
 export default function CustomJerseyDisplay() {
     return (
         <div className="min-h-screen lg:max-h-screen bg-[#D87C8C] flex flex-col items-center py-8 px-2 sm:px-4">
